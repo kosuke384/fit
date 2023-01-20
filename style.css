@@ -12,6 +12,7 @@ a{
 }
 .wrapper{
   overflow-x: hidden;
+  position: relative;
 }
 .btn{
   display: flex;
@@ -53,7 +54,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-          position: sticky;
+          position: fixed;
   top: 0;
   z-index: 999;
 }
